@@ -1,0 +1,124 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white; /* Set text color to white */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #01EEFF;
+}
+.images{
+    height:380px;
+    width:380px;
+    left:20px;
+    top:50px;
+    position:absolute;
+    border-radius:50%;
+}
+
+.images img{
+    height:380px;
+    width:380px;
+    left:100px;
+    top:63px;
+    position:absolute;
+    border-radius:50%;
+
+}
+.seemore-content h1{
+    font-size: 20px;
+    color: #01EEFF;
+    margin-top: 470px;
+    margin-left: 150px;
+    width: fit-content;
+}
+.seemore-content p{
+    color: white;
+    margin-left: 150px;
+    white-space: nowrap;
+}
+.seemore-content h2{
+    font-size: 20px;
+    color: #01EEFF;
+    margin-left:150px;
+    margin-top: 30px;
+
+}
+.seemore-content p1{
+    color: white;
+    margin-left: 150px;
+}
+.seemore-content h3{
+    font-size: 20px;
+    color: #01EEFF;
+    margin-left:150px ;
+    margin-top:30px ; 
+}
+.seemore-content p2{
+    color: white;
+    margin-left:150px ;
+}
+.seemore-content h4{
+    font-size: 20px;
+    color: white;
+    margin-top: -750px;
+    text-align: left;
+    white-space: nowrap;
+    margin-left: 550px;
+}
+span{
+    color: #01EEFF;
+}
+.seemore-content p3{
+    color: white;
+    text-align: left;
+    margin-left: 550px;
+    white-space: nowrap;
+}
+.seemore-content h5{
+    font-size: 20px;
+    color: #01EEFF;
+    white-space: nowrap;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.seemore-content p4{
+    color: white;
+    white-space: nowrap;
+    margin-left: 550px;
+}
+.seemore-content h6{
+    font-size: 20px;
+    margin-top: -120px;
+    margin-left: 800px;
+    opacity: 0;
+}
+.seemore-content p5{
+    margin-left: 800px;
+    white-space: nowrap;
+    color: white;
+}

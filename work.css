@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #01EEFF;
+}
+.container .text{
+    position: relative;
+    color: #01EEFF;
+    font-size: 32px;
+    font-weight: 600;
+}
+.text.first-text{
+    margin-left: 50px;
+}
+.text.first-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #323846 ;
+    animation: animate 4s steps(12) infinite;
+} 
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.images{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.second{
+    width: fit-content;
+    margin-left: 50px;
+    margin-top:-425px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.second:hover{
+    opacity: 1;
+}
+.images1{
+    margin-left: 900px;
+    margin-top: -485px;
+}
+.second1{
+    width: fit-content;
+    margin-left: 900px;
+    margin-top: -425px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.second1:hover{
+    opacity: 1;
+}
+.images2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.second2{
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: -425px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.second2:hover{
+    opacity: 1;
+}
+.images3{
+    margin-left: 475px;
+    margin-top: -750px;
+}
+.second3{
+    width: fit-content;
+    margin-left:475px ;
+    margin-top: -425px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.second3:hover{
+    opacity: 1;
+}
+.images4{
+    margin-left:900px ;
+    margin-top: -220px;
+}
+.second4{
+    width: fit-content;
+    margin-left: 900px;
+    margin-top: -425px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.second4:hover{
+    opacity: 1;
+}
+.view{
+    width: fit-content;
+    margin-top: -625px;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.view:hover{
+    opacity: 1;
+    filter: blur(1px);
+}
+.view2{
+    width: fit-content;
+    margin-top: -25px;
+    margin-left: 1060px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.view2:hover{
+    opacity: 1;
+    filter: blur(1px);
+}
+.view3{
+    width: fit-content;
+    margin-top: 225px;
+    margin-left: 630px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.view3:hover{
+    opacity: 1;
+    filter: blur(1px);
+}
+.view4{
+    width: fit-content;
+    margin-top: 250px;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.view4:hover{
+    opacity: 1;
+    filter: blur(1px);
+}
+.view5{
+    width: fit-content;
+    margin-top: -25px;
+    margin-left: 1060px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.view5:hover{
+    opacity: 1;
+    filter: blur(1px);
+}
